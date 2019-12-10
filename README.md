@@ -2,10 +2,10 @@
 # Docker 
 List mấy thứ vui vẻ
 - [Image | GIF](#image--gif)
- - [Cách cài đặt Docker trên Ubuntu](#install-docker-ubuntu) 
+ - [Cách cài đặt Docker trên Ubuntu](#ahihi) 
  - 
  - 
-#   [Cách cài đặt Docker trên Ubuntu](#install-docker-ubuntu) 
+# Cách cài đặt Docker trên Ubuntu
 
 Mình sẽ hướng dẫn các bạn cách đơn giản nhất để cài Docker và Docker Compose trên Ubuntu
 
@@ -23,7 +23,7 @@ Nếu chưa cài lần nào thì có thể bỏ qua bước này
 sudo apt remove docker docker-engine docker.io
 ```
 
-### Cài đặt Docker
+### ahihi
 Docker có sẵn trên repository mặc định của Ubuntu nên chỉ cần gõ lệnh như bên dưới là được
 ```bash
 sudo apt install docker.io
