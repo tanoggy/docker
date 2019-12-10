@@ -2,7 +2,7 @@
 # Docker 
 List mấy thứ vui vẻ
 - [Image | GIF](#image--gif)
- - [Cách cài đặt Docker trên Ubuntu](#ahihi) 
+ - [Cách cài đặt Docker trên Ubuntu](#Tiếng-Việt) 
  - 
  - 
 # Cách cài đặt Docker trên Ubuntu
@@ -23,7 +23,7 @@ Nếu chưa cài lần nào thì có thể bỏ qua bước này
 sudo apt remove docker docker-engine docker.io
 ```
 
-### ahihi
+### Tiếng Việt
 Docker có sẵn trên repository mặc định của Ubuntu nên chỉ cần gõ lệnh như bên dưới là được
 ```bash
 sudo apt install docker.io
