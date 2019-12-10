@@ -1,8 +1,8 @@
 
 # Docker 
 List mấy thứ vui vẻ
-- [Image | GIF](#image--gif)
- - [Cách cài đặt Docker trên Ubuntu](#Tiếng-Việt) 
+
+ - [Cách cài đặt Docker trên Ubuntu](#Cách-cài đặt-Docker-trên-Ubuntu) 
  - 
  - 
 # Cách cài đặt Docker trên Ubuntu
@@ -23,7 +23,7 @@ Nếu chưa cài lần nào thì có thể bỏ qua bước này
 sudo apt remove docker docker-engine docker.io
 ```
 
-### Tiếng Việt
+### Cài đặt Docker
 Docker có sẵn trên repository mặc định của Ubuntu nên chỉ cần gõ lệnh như bên dưới là được
 ```bash
 sudo apt install docker.io
@@ -42,9 +42,3 @@ Cài đặt để Docker khởi động cùng hệ thống
 ```bash
 sudo systemctl enable docker
 ```
-# Image | GIF
-![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
-    
-    ![myImage](https://media.giphy.com/media/XRB1uf2F9bGOA/giphy.gif)
-    
-See more [Markdown Extras - Image Align](https://github.com/fefong/markdown_readme/blob/master/markdown-extras.md#image-align)    
