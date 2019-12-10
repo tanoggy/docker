@@ -2,7 +2,7 @@
 # Docker 
 List mấy thứ vui vẻ
 
- - [ Cách cài đặt Docker trên Ubuntu](#C%C3%A1ch-c%C3%A0i%20%C4%91%E1%BA%B7t-Docker-tr%C3%AAn-Ubuntu)
+ - [ Cách cài đặt Docker trên Ubuntu](#cách-cài-đặt-docker-trên-ubuntu)
 
 # Cách cài đặt Docker trên Ubuntu
 
