@@ -90,5 +90,29 @@ Done.
 ```
 Vậy là từ nay user của chúng ta có thể sử dụng Docker mà không cần thêm sudo hay password nữa
 
+# Kích hoạt API Docker trên Ubuntu
 
+Tạo file /etc/systemd/system/docker.service.d/startup_options.conf
+```bash
+# /etc/systemd/system/docker.service.d/override.conf
+[Service]
+ExecStart=
+ExecStart=/usr/bin/dockerd -H fd:// -H tcp://0.0.0.0:2376
+```
+Reset lại
 
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart docker.service
+```
+Chạy thử
+
+```bash
+curl http://localhost:2376/version
+```
+
+Tạo key
+https://docs.docker.com/engine/security/https/
+```bash
+
+```
